@@ -7,11 +7,11 @@ from keras.layers import Flatten
 from keras.layers import Dense, Dropout
 from keras import optimizers
 
-classifier = Sequential() # Initialing CNN
+classifier = Sequential()   #Initialing CNN
 
-classifier.add(Convolution2D(32, 3,  3, input_shape = (64, 64, 3), activation = 'relu')) #Convolution Layer
+classifier.add(Convolution2D(32, 3,  3, input_shape = (64, 64, 3), activation = 'relu'))   #Convolution Layer
 
-classifier.add(MaxPooling2D(pool_size =(2,2))) #Pooling
+classifier.add(MaxPooling2D(pool_size =(2,2)))    #Pooling
 
 #Adding 2nd convolution layer
 classifier.add(Convolution2D(32, 3,  3, activation = 'relu')) 
@@ -21,7 +21,7 @@ classifier.add(MaxPooling2D(pool_size =(2,2)))
 classifier.add(Convolution2D(64, 3,  3, activation = 'relu'))
 classifier.add(MaxPooling2D(pool_size =(2,2)))
 
-classifier.add(Flatten())  #Flattening
+classifier.add(Flatten())     #Flattening
 
 classifier.add(Dense(256, activation = 'relu'))  #Full Connection
 classifier.add(Dropout(0.5))
