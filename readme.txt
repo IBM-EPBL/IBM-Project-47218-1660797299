@@ -1,5 +1,5 @@
                                                
-                                               Fertilizers-Recommendation-System-For-Disease-Prediction
+                                           Fertilizers-Recommendation-System-For-Disease-Prediction
                                                
 🌟 Introduction:
              Fertilizer Recommendation system for disease Prediction is a simple ML and DL based website which recommends the best crop to grow, 
