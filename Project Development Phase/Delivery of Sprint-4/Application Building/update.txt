@@ -1,0 +1,3 @@
+    Build HTML Pages✅
+    Build Python Code✅
+    Run the Code✅
