@@ -32,7 +32,7 @@
           Artificial Intelligence
           Machine Learning
           Deep Learning
-
+         
 
 🌟The Beneficial Users :
        Farmer
@@ -84,3 +84,10 @@
         *  Solution Requirements
         *  Technology Stack
         *  Customer Journey Map
+        
+        
+                                                                🌟CONTRIBUTORS
+                                                          SESHATHRI N - Team Leader
+                                                          JERINA A
+                                                          EMIMA S
+                                                          DINO J
